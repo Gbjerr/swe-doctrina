@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: 'Alfa';
+  src:local('Alfa'), url(../fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf) format('truetype')
+}
