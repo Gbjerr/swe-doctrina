@@ -47,7 +47,7 @@
 	border: 0.5px solid #c0c0c0;
 	padding: 0.3em;
 	border-radius: 5em;
-	background-color: #8a2be2;
+	background-color: #1976d2;
 	color: #f0f8ff;
 	transition: all 0.5s;
 }
@@ -55,7 +55,7 @@
 .notification:hover {
 	cursor: pointer;
 	box-shadow: var(--icon-shadow);
-	background-color: #a245f8;
+	background-color: #359aff;
 	transform: scale(1.4);
 }
 
