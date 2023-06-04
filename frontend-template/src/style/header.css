@@ -1,20 +1,17 @@
 :root {
-	--dark-mode--color: #202020;
 	--icon-shadow: 1px 1px 3px #8f8f8f;
-	--light-background:  #f3f4f5;
 }
 
 .header-container {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	height: 7em;
-	background-color: var(--light-background)
+	border-bottom: 1px solid #c0c0c0;
 }
 
 .doctrina {
 	grid-column: 1;
 	grid-row: 1;
-	color: var(--dark-mode--color);
 	display: flex;
 	align-self: center;
 	justify-content: start;
@@ -24,7 +21,6 @@
 .heading {
 	grid-column: 1 / span 5;
 	grid-row: 2;
-	color: var(--dark-mode--color);
 	display: flex;
 	align-self: center;
 	justify-content: center;
@@ -45,7 +41,6 @@
 	display: flex;
 	align-self: center;
 	transform: scale(1.2);
-	border: 0.5px solid #c0c0c0;
 	padding: 0.3em;
 	border-radius: 5em;
 	background-color: #1976d2;
@@ -70,12 +65,38 @@
 	margin-right: 0px;
 }
 
+.MuiSwitch-track, 
+.css-1yjjitx-MuiSwitch-track {
+	color:red;
+	background-color: #3dbb6d;
+}
+
+.PrivateSwitchBase-input, 
+.MuiSwitch-input, 
+.css-1m9pwf3 {
+	color:red;
+	background-color: #3dbb6d;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+	background-color: #1976d2 !important;
+}
+
+.css-1yjjitx-MuiSwitch-track {
+	border: 1px solid #ffffff;
+	background-color: #414040 !important;
+}
+
 .switch-moon,
 .switch-sun {
 	transform: scale(1.2);
 	margin-right:1em;
 	display: flex;
 	align-self: center;
+}
+
+.switch-moon {
+	color: #f3f4f5;
 }
 
 .burger-menu {

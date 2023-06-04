@@ -8,3 +8,7 @@
   font-family: 'Alfa';
   src:local('Alfa'), url(../fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf) format('truetype')
 }
+
+body {
+  overflow-y: hidden;
+}
