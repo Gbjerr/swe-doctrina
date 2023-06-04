@@ -4,6 +4,7 @@ import Root from './Root.jsx'
 import { RecoilRoot } from 'recoil'
 import './style/index.css'
 import './style/header.css'
+import './style/main-page.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -14,7 +14,7 @@ const Content = () => {
 	const [darkMode, setDarkMode] = useRecoilState(darkModeColor)
 
 	return (
-		<section style={{backgroundColor: isSwitch ? darkMode : lightMode}}>
+		<section className='content-container' style={{backgroundColor: isSwitch ? darkMode : lightMode}}>
 			<div className='side-menu'> <SideMenu /></div>
 			<div className='burger-side-menu'> <BurgerMenu /></div>
 		</section>
